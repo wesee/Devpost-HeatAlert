@@ -10,7 +10,19 @@ I built the HeatAlert system which I can monitor the temperature of a venue.  If
 
 
 ## How I built it
-I built the system using TI Launchpad CC3200 to read the temperature sensor's (TM35DZ) values.  With Temboo and Nexmo services, if the temperature exceeds 28 degree Celsius the system converts text to speech and makes phone calls to a user and receives a pin-code from the user.  Based on the code, the system will turn on an air-cond or just ignore the situation.
+I built the system using TI Launchpad CC3200 to read the temperature sensor's (TM35DZ) values.  With Temboo and Nexmo services, if the temperature exceeds 28 degree Celsius the system converts text to speech and makes phone calls to a user and receives a number from the user.  Based on the code, the system will turn on an air-cond or just ignore the situation.
+
+### Hardware required
++ TI Launchpad CC3200
++ TM35DZ
++ LED
+
+### Software required
++ Energia [link](http://energia.nu/)
+
+### Services required
++ Nexmo [link](https://www.nexmo.com/)
++ Temboo [link](https://www.temboo.com/)
 
 
 ## Challenges I ran into
